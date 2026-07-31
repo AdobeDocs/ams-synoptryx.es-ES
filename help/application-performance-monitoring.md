@@ -1,23 +1,23 @@
 ---
-title: Supervisión del rendimiento de las aplicaciones (APM) con Synoptryx
-description: Utilice el complemento Synoptryx APM para rastrear transacciones de AEM, monitorizar JVM, analizar transacciones e inspeccionar seguimientos de transacciones y servicios externos en AEM Managed Services.
+title: Supervisión del rendimiento de la aplicación (APM) con  [!DNL Synoptryx]
+description: Utilice el complemento  [!DNL Synoptryx] APM para rastrear transacciones de AEM, monitorizar JVM, analizar transacciones e inspeccionar seguimientos de transacciones y servicios externos en AEM Managed Services.
 feature: Operations
 role: Admin
-source-git-commit: 883b68e3bc57ba6b55559560a967a6dbc553262a
+source-git-commit: 12876ba185fd6d155f02639fba9601a3616c7e90
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1078'
 ht-degree: 5%
 
 ---
 
 
-# Supervisión del rendimiento de las aplicaciones (APM) con Synoptryx {#application-performance-monitoring}
+# Supervisión del rendimiento de la aplicación (APM) con [!DNL Synoptryx] {#application-performance-monitoring}
 
-Synoptryx Application Performance Monitoring (APM) proporciona insight histórico y en tiempo real sobre el rendimiento de Adobe Experience Manager (AEM) y la experiencia del usuario final. El seguimiento de transacciones, los gráficos y los informes de extremo a extremo proporcionan visibilidad del comportamiento de la aplicación hasta el nivel de código Java.
+[!DNL Synoptryx] La supervisión del rendimiento de la aplicación (APM) proporciona insight histórico y en tiempo real al rendimiento de Adobe [!DNL Experience Manager] (AEM) y a la experiencia del usuario final. El seguimiento de transacciones, los gráficos y los informes de extremo a extremo proporcionan visibilidad del comportamiento de la aplicación hasta el nivel de código Java.
 
-## Complemento Managed Services Synoptryx APM {#apm-plugin}
+## Complemento de APM de Managed Services [!DNL Synoptryx] {#apm-plugin}
 
-AEM se ejecuta como una aplicación Java en Jetty con módulos Apache Felix OSGi, creados en Apache Sling y Jackrabbit Oak. Adobe Managed Services, AEM Engineering y Synoptryx Engineering desarrollaron conjuntamente instrumentación personalizada para entornos de Managed Services.
+AEM se ejecuta como una aplicación Java en Jetty con módulos Apache Felix OSGi, creados en Apache Sling y Jackrabbit Oak. Adobe Managed Services, AEM Engineering y [!DNL Synoptryx] Engineering desarrollaron conjuntamente instrumentación personalizada para entornos de Managed Services.
 
 Esa instrumentación recopila:
 
@@ -29,7 +29,7 @@ Esa instrumentación recopila:
 
 ![Vista de seguimiento de Synoptryx APM que muestra los intervalos de componentes de AEM anidados y la cronología de ejecución para una solicitud de página](assets/image19.png)
 
-## Uso de Synoptryx APM {#using-apm}
+## Utilizando APM [!DNL Synoptryx] {#using-apm}
 
 Utilice APM para buscar problemas de aplicaciones antes de que afecten a los usuarios finales. Autor y Publicación comparten un código base, pero se supervisan como **aplicaciones APM independientes** para que pueda analizar cada nivel de forma independiente.
 
@@ -38,7 +38,7 @@ Todos los entornos de Managed Services incluyen:
 - Una aplicación de APM para Author
 - Una aplicación de APM para publicación
 
-Seleccione un nombre de aplicación en Synoptryx APM para abrir su panel de información general y monitorización.
+Seleccione un nombre de aplicación en la APM [!DNL Synoptryx] para abrir su panel de información general y supervisión.
 
 ![Lista de aplicaciones de Synoptryx APM que muestra aplicaciones de autor y publicación](assets/image1a.png)
 
@@ -70,7 +70,7 @@ El tablero está organizado en secciones ampliables que agrupan las métricas de
 
 ### Descripción
 
-La sección **Información general** presenta indicadores clave de rendimiento (KPI) de alto nivel que resumen el estado actual de la aplicación supervisada.
+La sección **[!UICONTROL Información general]** presenta indicadores clave de rendimiento (KPI) de alto nivel que resumen el estado actual de la aplicación supervisada.
 
 Estos KPI proporcionan un resumen rápido de la actividad de la aplicación, el rendimiento, el éxito de las solicitudes y la experiencia general del usuario.
 
